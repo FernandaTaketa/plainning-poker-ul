@@ -1,0 +1,120 @@
+.JoinRoom {
+  text-align: center;
+  background-color: #8cb8c5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.JoinRoom-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .JoinRoom-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.JoinRoom-link {
+  color: #61dafb;
+}
+
+.JoinRoom-row {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+}
+
+.JoinRoom-column-left {
+  flex: 40%;
+}
+
+.JoinRoom-column-right {
+  flex: 60%;
+}
+
+.JoinRoom-column-right img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: -30px;
+}
+
+.JoinRoom-wrapper {
+  background-color: #dedede;
+  height: 90%;
+  padding: 50px;
+  max-width: 515px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.JoinRoom-middle {
+  background-color: white;
+  height: 95%;
+  padding: 30px;
+  padding-top: 50px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #3939b5;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.JoinRoom-inside {
+  background-color: #9cd5ea;
+  color: black;
+  text-transform: uppercase;
+  height: 136px;
+  width: 87%;
+  margin-top: 90px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #3939b5;
+  font-size: 18px;
+}
+.JoinRoom-middle button {
+  background-color: #9cd5ea;
+  border: 1px solid #9cd5ea;
+  text-transform: uppercase;
+  margin-top: 80px;
+  width: 150px;
+  color: #3939b5;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.JoinRoom-middle button:hover {
+  background-color: #6bbbda;
+  border: 1px solid #6bbbda;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.JoinRoom-inside input {
+  border: none;
+  outline: none;
+  height: 25px;
+  width: 85%;
+  border-radius: 6px;
+  margin-top: 18px;
+}
+
+.JoinRoom-tablet-button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #383838;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  box-shadow: -5px 5px 5px -5px rgba(0, 0, 0, 0.45);
+}

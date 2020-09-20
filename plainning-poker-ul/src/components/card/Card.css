@@ -1,0 +1,53 @@
+.poker-card {
+  background-color: rgb(21 19 20);
+  border-radius: 6%;
+  width: 120px;
+  height: 200px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: -15px 43px 29px -2px rgba(71, 67, 71, 0.79);
+  cursor: pointer;
+  transition: margin-top 0, 5s;
+}
+
+.poker-card:hover {
+  margin-top: 5px;
+}
+
+.card-square {
+  border: 3px solid white;
+  position: relative;
+  top: 30px;
+  margin: 0 25px;
+}
+
+.card-number {
+  position: absolute;
+  color: white;
+  padding: 8px;
+  font-size: 22px;
+}
+
+.card-number-bottom {
+  transform: rotate(180deg);
+  right: -45px;
+  bottom: -12px;
+  position: relative;
+}
+
+#logo-big {
+  width: 80px;
+  height: 80px;
+  margin-top: 60px;
+}
+
+#logo-small {
+  width: 40px;
+  height: 40px;
+  margin: 50px 10px;
+}
+
+#img-door {
+  height: 88px;
+  margin: 1px 20px;
+}
